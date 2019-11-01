@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
 	if(fp == NULL)
 		perror("fopen");
 	fputs("hell",fp);
+	fputs("world!\n",fp);
 	fputs("\n",fp);
 	fclose(fp);
     return 0;
